@@ -1,0 +1,453 @@
+/*colors
+light purple: #9E78E3
+dark purple: #6F43A3
+light yellow: #FBF891
+dark yellow: #F3E92F */
+
+
+/*fonts
+font-family: 'Pacifico', cursive;
+font-family: 'Petrona', serif;
+font-family: 'Special Elite', cursive;*/
+
+
+
+/*----------------------------GLOBAL----------------------------*/
+
+/*responsive*/
+body,
+html {
+  width: 100%;
+  height: 100%; }
+
+/*global padding*/
+.pad {
+    padding: 1px;
+}
+
+/*FOOTER*/
+.footer {
+    /* black bkgnd: */
+    background: black;
+    max-width: 1440px;
+    margin-top: -5px;
+}
+
+.footer h1 {
+    font-family: 'Special Elite', cursive;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+
+/*Links*/
+a:link {
+    text-decoration: none;
+}
+
+a:visted {
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+a:active {
+    color: black;
+    text-decoration: underline;
+}
+
+
+/*----------------------------HOME----------------------------*/
+
+/*home NAME*/
+.homeName {
+    /* Purple Rectangle: */
+    background: #9E78E3;
+    border: 3px solid #F3E92F;
+
+    /* ashten l. bartz: */
+    font-family: 'Pacifico', cursive;
+    font-size: 12vw;
+    padding: -5%;
+    color: #6F43A3;
+    display: flex;
+    justify-content: center;
+    text-shadow: 
+        /* first layer at 1px */
+        -1px -1px 0px #F3E92F,
+         0px -1px 0px #F3E92F,
+         1px -1px 0px #F3E92F,
+        -1px  0px 0px #F3E92F,
+         1px  0px 0px #F3E92F,
+        -1px  1px 0px #F3E92F,
+         0px  1px 0px #F3E92F,
+         1px  1px 0px #F3E92F,
+        /* second layer at 2px */
+        -2px -2px 0px #FBF891,
+        -1px -2px 0px #FBF891,
+         0px -2px 0px #FBF891,
+         1px -2px 0px #FBF891,
+         2px -2px 0px #FBF891,
+         2px -1px 0px #FBF891,
+         2px  0px 0px #FBF891,
+         2px  1px 0px #FBF891,
+         2px  2px 0px #FBF891,
+         1px  2px 0px #FBF891,
+         0px  2px 0px #FBF891,
+        -1px  2px 0px #FBF891,
+        -2px  2px 0px #FBF891,
+        -2px  1px 0px #FBF891,
+        -2px  0px 0px #FBF891,
+        -2px -1px 0px #FBF891;
+}
+
+/*home TAGLINE*/
+.homeTaglineBox {
+    /* Yellow Rectangle: */
+    background: #FBF891;
+    border: 3px solid #9E78E3;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.homeTaglineText {
+    font-family: 'Special Elite', cursive;
+    font-size: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*home ABOUT*/
+
+.homeAboutBox {
+    /* White Rectangle: */
+    background: white;
+    border: 3px solid #9E78E3;
+    padding: 1%;
+}
+
+.homeAboutText h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 5vw;
+    text-align: center;
+    color: #000000;
+    margin-top: -1%;
+    margin-bottom: -1%;
+}
+
+.homeAboutText h2 {
+    font-family: 'Petrona', serif;
+    font-size: 2vw;
+    color: #000000;
+    text-align: left;
+}
+
+/*home TITLE BOXES*/
+
+.homeTitleBox {
+    /* Yellow Rectangle: */
+    background: #FBF891;
+    border: 3px solid #F3E92F;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    max-height: 80px;
+    height: 90%;
+    width: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeTitleText {
+    font-family: 'Special Elite', cursive;
+    font-size: 2vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+}
+
+/*home PORTFOLIO IMAGES*/
+
+.homePortfolio {
+    /* White Rectangle: */
+    background: white;
+    border: 3px solid #9E78E3;
+    padding: 1%;    
+}
+
+/*Image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row: after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 5px;
+}
+
+.homeContactBox {
+    /* White Rectangle: */
+    background: white;
+    border: 3px solid #9E78E3;
+    padding: 1%;
+}
+
+.homeContactImg {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+
+
+/*----------------------------MENU----------------------------*/
+
+
+/*project page NAME*/
+.projectName {
+    /* Purple Rectangle: */
+    background: #9E78E3;
+    border: 3px solid #F3E92F;
+
+    /* ashten l. bartz: */
+    font-family: 'Pacifico', cursive;
+    font-size: 4vw;
+    padding: -5%;
+    color: #6F43A3;
+    display: flex;
+    justify-content: center;
+    text-shadow: 
+        /* first layer at 1px */
+        -1px -1px 0px #F3E92F,
+         0px -1px 0px #F3E92F,
+         1px -1px 0px #F3E92F,
+        -1px  0px 0px #F3E92F,
+         1px  0px 0px #F3E92F,
+        -1px  1px 0px #F3E92F,
+         0px  1px 0px #F3E92F,
+         1px  1px 0px #F3E92F,
+        /* second layer at 2px */
+        -2px -2px 0px #FBF891,
+        -1px -2px 0px #FBF891,
+         0px -2px 0px #FBF891,
+         1px -2px 0px #FBF891,
+         2px -2px 0px #FBF891,
+         2px -1px 0px #FBF891,
+         2px  0px 0px #FBF891,
+         2px  1px 0px #FBF891,
+         2px  2px 0px #FBF891,
+         1px  2px 0px #FBF891,
+         0px  2px 0px #FBF891,
+        -1px  2px 0px #FBF891,
+        -2px  2px 0px #FBF891,
+        -2px  1px 0px #FBF891,
+        -2px  0px 0px #FBF891,
+        -2px -1px 0px #FBF891;
+}
+
+/*PROJECTS*/
+
+/*project title*/
+.projectBox h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 4vw;
+    text-align: center;
+    color: #000000;
+}
+
+/*section headers*/
+.projectBox h2 {
+    font-family: 'Special Elite', cursive;
+    font-size: 2vw;
+    color: #000000;
+    text-align: left;
+}
+
+/*sub-section headers*/
+.projectBox h3 {
+    font-family: 'Special Elite', cursive;
+    font-size: 1.5vw;
+    color: #000000;
+    text-align: left;
+}
+
+/*body text*/
+.projectBox h4 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.5vw;
+    color: #000000;
+    padding: 1%;
+}  
+
+/*images*/
+.projectBox h5 {
+    padding: 1%;
+    width: 50%;
+}
+
+.center50 {
+    margin: auto;
+    width: 50%;
+    padding: 1%;
+}
+
+.center75 {
+    margin: auto;
+    width: 75%;
+    padding: 1%;
+}
+
+
+
+/*project section box*/
+.projectSectionBox {
+    /* Yellow Rectangle: */
+    background: #FBF891;
+    border: 3px solid #F3E92F;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    max-height: 80px;
+    height: 90%;
+    width: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectSectionText {
+    font-family: 'Special Elite', cursive;
+    font-size: 2vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+}
+
+/*project Sub section box*/
+.projectSubSectionBox {
+    /* Yellow Rectangle: */
+    background: #9E78E3;
+    border: 3px solid #FBF891;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    max-height: 50px;
+    height: 80%;
+    width: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectSubSectionText {
+    font-family: 'Special Elite', cursive;
+    font-size: 1vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+}
+
+
+/*interest box*/
+.interestBox {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 0% 10%;
+    align-items: center;
+}
+
+.interestBoxText  {
+    /* purple Rectangle: */
+    background: #9E78E3;
+    border: 3px solid #6F43A3;
+}
+
+.interestBoxText h2 {
+    font-family: 'Special Elite', cursive;
+    font-size: 1.5vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0% 1%;
+    color: white;
+}
+
+.interestBoxText h4 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.5vw;
+    color: #000000;
+    padding: 0% 1%;
+}
+
+
+
+.columnText1 {
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+
+.columnText2 {
+    width: 50%;
+    float: right;
+    padding: 20px;
+}
+
+/* Clear floats after image containers */
+.rowText:after {
+    content: "";
+    clear: both;
+    display: inline-block;
+}
+
+.columnText1 {
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+
+
+table.center {
+    width:80%; 
+    margin-left:10%; 
+    margin-right:10%;
+  }
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 2%;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.25vw;
+    text-align: 
+}
