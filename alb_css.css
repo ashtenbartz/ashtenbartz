@@ -126,7 +126,7 @@ a.noStyle:hover {
 
     /* ashten l. bartz: */
     font-family: 'Pacifico', cursive;
-    font-size: 6vw;
+    font-size: 5vw;
     padding: -5%;
     color: #6F43A3;
     display: flex;
@@ -170,9 +170,13 @@ a.noStyle:hover {
 }
 
 .homeAboutPic {
-    width: 20%;
+    width: 15%;
     float: right;
     padding: 1%;
+}
+
+.homeAboutText1 {
+    margin-right: 23%;
 }
 
 .homeAboutText1 h1 {
